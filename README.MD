@@ -12,18 +12,13 @@ This plugin provides functionality to:
 - Manage token limits and response sizes
 - Optimize query performance
 
-## Installation
-
-```bash
-pnpm install @elizaos/plugin-web-search
-```
 
 ## Configuration
 
 The plugin requires the following environment variables:
 
 ```env
-TAVILY_API_KEY=your_api_key    # Required: API key for search service
+OpenAI_API_KEY=your_api_key    # Required: API key for search service
 ```
 
 ## Usage
